@@ -1,18 +1,48 @@
-a:hover {
-	cursor:pointer;
-}
+
 #header-section{
-	background-color:#F44336;
+	background-color:#2E86C1   ;
 	color:#fff;
-	height:200px;
+	height:30px;
 }
 
 #main-navbar{
 	justify-content: initial;
 }
-.footer{
-    position: fixed;
-    bottom: 0;
-    z-index: 100;/* Depende el valor segun las capas flotantes que tengas */
-    left: 0; /* Depende el Ancho de donde se va a colocar */
+
+/*  ELEMENTOS DE LA GALERIA DE IMAGENES */
+
+.slider {
+	width: 95%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 300%;
+
+	animation: cambio 20s infinite alternate linear;
+}
+
+.slider li{
+	width: 100%;
+	list-style: none;
+}
+.slider img{
+	width: 100%;
+}
+
+@keyframes cambio {
+		0% {margin-left: 0;}
+		20% {margin-left: 0;}
+
+		25% {margin-left: -100%;}
+		55% {margin-left: -100%;}
+
+		60% {margin-left: -200%;}
+		70% {margin-left: -200%;}
+
+		75% {margin-left: -200%;}
+		100% {margin-left: -200%;}
 }
