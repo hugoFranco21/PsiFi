@@ -1,5 +1,18 @@
-
-
 a:hover {
 	cursor:pointer;
+}
+#header-section{
+	background-color:#F44336;
+	color:#fff;
+	height:200px;
+}
+
+#main-navbar{
+	justify-content: initial;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    z-index: 100;/* Depende el valor segun las capas flotantes que tengas */
+    left: 0; /* Depende el Ancho de donde se va a colocar */
 }
