@@ -1,9 +1,22 @@
+body{
+  min-height: 100vh;
+  flex-wrap: wrap;
+}
+
+footer{
+  align-self: flex-end;
+  background-color: :rgba(120,120,120, .5);
+  line-height: 3;
+  text-align: center;
+  width: 100%;
+}
+
 /*  Botones header index */
 .button {
-    background-color: #AED6F1; /* Green */
+    background-color: #AED6F1;
     border: none;
     color: white;
-    padding: 15px;
+    padding: 12px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -20,7 +33,7 @@
 	justify-content: initial;
 }
 
-/*  Slider index */
+/*  Slider index Imagenes que se mueve */
 
 .slider {
 	width: 100%;
@@ -58,7 +71,7 @@
 		100% {margin-left: -200%;}
 }
 
-/*  Botones index*/
+/*  Seciones cuerpo de index*/
 
 .bs-calltoaction{
     position: relative;
