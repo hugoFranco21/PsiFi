@@ -190,3 +190,15 @@ footer{
 .bs-calltoaction.bs-calltoaction-danger .cta-button .btn{
     border-color:#fff;
 }
+.memes{
+    padding: 100px 100px 100px 100px;
+
+}
+
+.memes img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+
+}
