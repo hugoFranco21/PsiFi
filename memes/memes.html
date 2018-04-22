@@ -1,0 +1,84 @@
+<!--
+*Team: PSIFI
+*Delivery Date:
+*Developed on HTML , CSS , Javascript
+*
+*Members:
+*Hugo David Franco Avila - A01654856
+*Jose Carlos Pacheco Sanchez - A01702828
+*Manuel Yafté Gallegos López - A01702980
+*Valeria Nicole Barra - A01653899
+*HOLA , AQUI HICE EL COMENTARIO . PUEDEN VER SI YA SE CAMBIO
+*Creation Date: April 24th 2018 / ITESM (Mexico,Qro)
+* -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+	<!--meta name="viewport" content="width=device-width, initial-scale=1"-->
+    <title>Students Corner</title>
+    <!--References for the web page : styles, bootstrap, js etc.-->
+    <link href="../styles.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <script src="../js/jquery-3.2.1.min.js"></script>
+  	<script src="../js/bootstrap.bundle.js"></script>
+	<script src="Funciones.js"></script>
+    <!-- Style for about us-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <!--Main bar menu, here it will have the main buttons that will lead us to diferent sections -->
+  <body data-spy="scroll" data-target="#main-navbar" data-offset="70">
+    <!--header id="SC-header-section" class="container-fluid"></header> <!--Name of the header ID going to be SC-header-section (Students cornet) -->
+    
+	<div id="mySidenav" class="sidenav">
+	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	  <a href="#computers">Computers</a>
+	  <a href="#engineers">Engineers</a>
+	  <a href="#clients">Clients</a>
+	  <a href="#cats">Cats</a>
+
+	</div>
+	
+
+	<div class="main" id="main">
+		<nav class="navbar navbar-light" style="background-color:#C0392B ;">
+			<a class="navbar-brand" href="../index.html"><img height="70px" src="../images/Students-Corner.png"></a>
+			<ul class="nav nav-pills">
+				<li class="nav-item">
+					<!--Secciones Acerca de nostros, foro, y menu desplegable -->
+					<a class="nav-link" href="../AboutUs/aboutUs.html"><button class="button button1">About Us</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="../Forum/forum.html"><button class="button button1">Forum</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="../courses/courses.html"><button class="button button1">Subjects</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#section2"><button class="button button1">Leisure time</a>
+				</li>
+
+			</ul>
+
+			<!--Search section -->
+			<nav class="navbar navbar-light" style="background-color: #C0392B  ;">
+				<form class="form-inline" action="/action_page.php">
+					<input class="form-control mr-sm-2" type="text"  placeholder="Search" >
+					<button class="btn btn-success" type="submit">Search</button>
+				</form>
+			</nav>
+		</nav>
+		<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Sections</span>
+		<h2>Welcome to the Memes and relax space</h2>
+		<p>Click on the dropdown button to open the dropdown menu inside the side navigation.</p>
+		<p>This sidebar is of full height (100%) and always shown.</p>
+		<p>Some random text..</p>
+	</div>
+
+
+
+</body>
+
+</html>
