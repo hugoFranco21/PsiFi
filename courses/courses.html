@@ -1,0 +1,153 @@
+<!--
+*Team: PSIFI
+*Delivery Date:
+*Developed on HTML , CSS , Javascript
+*
+*Members:
+*Hugo David Franco Avila - A01654856
+*Jose Carlos Pacheco Sanchez - A01702828
+*Manuel Yafté Gallegos López - A01702980
+*Valeria Nicole Barra - A01653899
+*HOLA , AQUI HICE EL COMENTARIO . PUEDEN VER SI YA SE CAMBIO
+*Creation Date: April 24th 2018 / ITESM (Mexico,Qro)
+* -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Students Corner</title>
+	  <!--Main bar menu, here it will have the main buttons that will lead us to diferent sections -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/bootstrap.bundle.js"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="../styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+</head>
+		<body data-spy="scroll" data-target="#main-navbar" data-offset="70">
+ 		<!-- Header principal -->
+		<!--header id="header-section" class="container-fluid"></header-->
+		<nav class="navbar navbar-light" style="background-color:#C0392B ;">
+	 	<a class="navbar-brand" href="../index.html"><img height="70px" src="images/Students-Corner.png"></a>
+	 	<ul class="nav nav-pills">
+	  	<li class="nav-item">
+				<!--Secciones Acerca de nostros, foro, y menu desplegable -->
+	   		<a class="nav-link" href="../AboutUs/aboutUs.html"><button class="button button1">About Us</a>
+	  	</li>
+	  	<li class="nav-item">
+	   		<a class="nav-link" href="../Forum/forum.html"><button class="button button1">Forum</a>
+	  	</li>
+			<li class="nav-item">
+	   		<a class="nav-link" href="courses.html"><button class="button button1">Subjects</a>
+	  	</li>
+			<li class="nav-item">
+				<a class="nav-link" href="../memes/memes.html"><button class="button button1">Leisure time</a>
+			</li>
+
+	 	</ul>
+
+		<!--Search section -->
+		<nav class="navbar navbar-light" style="background-color: #C0392B  ;">
+			<form class="form-inline" action="/action_page.php">
+				<input class="form-control mr-sm-2" type="text"  placeholder="Search" >
+				<button class="btn btn-success" type="submit">Search</button>
+			</form>
+		</nav>
+	</nav>
+	<!-- A partir de aqui el codigo de abajo depende de cada uno -->
+
+	<h1 align="center">Want something more specific? Look in the Search bar!!!!</h1>
+
+			<form class="form-inline" action="/action_page.php">
+				<input class="form-control mr-sm-2" type="text"  placeholder="Search" >
+				<button class="btn btn-success" type="submit">Search</button>
+			</form>
+
+
+	<div id="courses" class="courses">
+	<table>
+		<tr>
+			<td class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="true"><img src="images/1.png" widht="200" height="150"></a>
+		   		<div class="dropdown-menu">
+					<a class="dropdown-item" href="resources/fisica.html">Fisica</a>
+					<a class="dropdown-item" href="resources/mateDiscretas.html">Matematicas discretas</a>
+		   		</div>
+			</td>
+			<td class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="true"><img src="images/2.png" widht="200" height="150"></a>
+		   		<div class="dropdown-menu">
+					<a class="dropdown-item" href="resources/poo.html">Programacion orientada a objetos</a>
+					<a class="dropdown-item" href="resources/orga.html">Organizacion computacional</a>
+		   		</div>
+			</td>
+			<td class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="true"><img src="images/3.png" widht="200" height="150"></a>
+		   		<div class="dropdown-menu">
+					<a class="dropdown-item" href="resources/fis.html">Fundamentos de Ingenieria de Software</a>
+					<a class="dropdown-item" href="resources/estructura.html">Estructura de datos</a>
+		   		</div>
+			</td>
+	
+		</tr>
+		<tr>
+			<td class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="true"><img src="images/4.png" widht="200" height="150"></a>
+		   		<div class="dropdown-menu">
+					<a class="dropdown-item" href="resources/redes.html">Redes</a>
+					<a class="dropdown-item" href="resources/videojuegos.html">Videojuegos</a>
+		   		</div>
+			</td>
+			<td class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="true"><img src="images/5.png" widht="200" height="150"></a>
+		   		<div class="dropdown-menu">
+					<a class="dropdown-item" href="resources/mateComputacionales.html">Matematicas computacionales</a>
+					<a class="dropdown-item" href="resources/algebraLineal.html">Algebra lineal</a>
+		   		</div>
+			</td>
+			<td class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="true"><img src="images/6.png" widht="200" height="150"></a>
+		   		<div class="dropdown-menu">
+					<a class="dropdown-item" href="resources/prograAvanzada.html">Programacion avanzada</a>
+					<a class="dropdown-item" href="resources/basesAvanzadas.html">Bases de datos avanzadas</a>
+		   		</div>
+			</td>
+	
+		</tr>
+		<tr>
+			<td class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="true"><img src="images/7.png" widht="200" height="150"></a>
+		   		<div class="dropdown-menu">
+					<a class="dropdown-item" href="resources/lenguajes.html">Lenguajes de programacion</a>
+					<a class="dropdown-item" href="resources/seguridad.html">Seguridad informatica</a>
+		   		</div>
+			</td>
+			<td class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="true"><img src="images/8.png" widht="200" height="150"></a>
+		   		<div class="dropdown-menu">
+					<a class="dropdown-item" href="resources/disenoCompiladores.html">Diseno de compiladores</a>
+					<a class="dropdown-item" href="resources/graficas.html">Graficas computacionales</a>
+		   		</div>
+			</td>
+			<td class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="true"><img src="images/9.png" widht="200" height="150"></a>
+		   		<div class="dropdown-menu">
+					<a class="dropdown-item" href="resources/sistemas.html">Sistemas computacionales</a>
+					<a class="dropdown-item" href="resources/etica.html">Etica aplicada</a>
+		   		</div>
+			</td>
+	
+		</tr>
+	</table>
+
+	</div>
+
+
+ </body>
+
+
+
+</html>
