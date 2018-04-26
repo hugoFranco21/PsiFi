@@ -12,7 +12,10 @@ footer{
   text-align: center;
   width: 100%;
 }
+nav{
 
+
+}
 .nav-item{
 	padding-left: 12px
 }
@@ -36,9 +39,12 @@ footer{
 	border-radius: 15px;
 }
 
-
+a:hover {
+	cursor:pointer;
+}
 #main-navbar{
 	justify-content: initial;
+  position: absolute
 }
 
 /*  Slider index Imagenes que se mueve */
@@ -201,4 +207,8 @@ footer{
     margin-right: auto;
     padding-bottom: 50px;
 
+}
+
+a:hover {
+	cursor:pointer;
 }
