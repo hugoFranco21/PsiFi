@@ -2,14 +2,15 @@
 
 .sidenav {
     height: 100%;
-    width: 0;
+    width: 250px;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #C0392B;
+    /*background-color: #C0392B;*/
+	background-color: #668cff;
     overflow-x: hidden;
-    transition: 0.5s;
+    /*transition: 0.5s;*/
     padding-top: 60px;
 }
 
@@ -32,6 +33,10 @@
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
+}
+
+.memes{
+	margin-left: 190px;
 }
 
 @media screen and (max-height: 450px) {
