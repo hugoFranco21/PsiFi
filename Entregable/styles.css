@@ -88,6 +88,13 @@ color: #fff;
 background-color: #4d0099;
 }
 
+#links{
+padding-top:50px;
+height:460px;
+color: #fff;
+background-color: #cc2900;
+}
+
 .img1
 {
 	float: left;
@@ -117,7 +124,7 @@ background-color: #4d0099;
 {
 	font-weight: bold;
 	color: white;
-	background-color: teal;
+	/*background-color: teal;*/
 	width: 120px;
 	text-decoration:underline;
 }
@@ -126,7 +133,7 @@ background-color: #4d0099;
 {
 	font-weight:bold;
 	color:white;
-	background-color:purple;
+	/*background-color:purple;*/
 	width:120px;
 	text-decoration:underline;
 }
