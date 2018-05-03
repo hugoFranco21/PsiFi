@@ -28,6 +28,7 @@ nav{
     overflow-x: hidden;
     /*transition: 0.5s;*/
     padding-top: 60px;
+	font-size: 14px;
 }
 
 .sidenav a {
@@ -51,9 +52,85 @@ nav{
     margin-left: 50px;
 }
 
+.main{
+	margin-left: 250px;
+}
+
 .nav-item{
 	padding-left: 200px
 }
+
+#development {
+padding-top:50px;
+height:380px;
+color: #fff;
+background-color: #1E88E5;
+}
+
+#component{
+padding-top:50px;
+height:440px;
+color: #fff;
+background-color: #B3CCE6;
+}
+
+#implementation{
+padding-top:50px;
+height:460px;
+color: #fff;
+background-color: #006600;
+}
+
+#analysis{
+padding-top:50px;
+height:460px;
+color: #fff;
+background-color: #4d0099;
+}
+
+.img1
+{
+	float: left;
+	max-width:100%;
+	height:auto;
+	border-radius: 8px;
+	padding-right: 20px;
+}
+
+.clearfix::after{
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.p1
+{
+
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	text-align: justify;
+	text-justify: inter-word;
+
+}
+
+.a1 a:link
+{
+	font-weight: bold;
+	color: white;
+	background-color: teal;
+	width: 120px;
+	text-decoration:underline;
+}
+
+.a1 a:visited
+{
+	font-weight:bold;
+	color:white;
+	background-color:purple;
+	width:120px;
+	text-decoration:underline;
+}
+
 
 /*  Botones header index */
 .button {
