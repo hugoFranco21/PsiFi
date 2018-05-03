@@ -67,11 +67,25 @@ color: #fff;
 background-color: #1E88E5;
 }
 
+#development2 {
+padding-top:50px;
+height:400px;
+color: #fff;
+background-color: #4d0099;
+}
+
 #component{
 padding-top:50px;
 height:440px;
 color: #fff;
 background-color: #B3CCE6;
+}
+
+#identification{
+padding-top:50px;
+height:550px;
+color: #fff;
+background-color: #006600;
 }
 
 #implementation{
@@ -93,6 +107,13 @@ padding-top:50px;
 height:460px;
 color: #fff;
 background-color: #cc2900;
+}
+
+#presentation {
+padding-top:50px;
+height:380px;
+color: #fff;
+background-color: #1E88E5;
 }
 
 .img1
